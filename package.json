@@ -1,0 +1,13 @@
+{
+  "name": "taskpilot-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TaskPilot AI - Autonomous Event Planning Task Agent",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server run start",
+    "build:client": "npm --prefix client run build",
+    "test:server": "npm --prefix server test"
+  }
+}
